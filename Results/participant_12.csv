@@ -1,0 +1,9 @@
+trial,stimulus,key,key_press,rt,correct
+1,Goomba,up,down,0.9277610999997705,0
+2,Lakitu,right,,0.0,0
+3,Super Hammer,left,left,0.7372582999960287,1
+4,Super Hammer,left,up,1.0742780000000494,0
+5,Goomba,up,down,1.4348421999893617,0
+6,Lakitu,right,right,0.9371335999894654,1
+7,Bill,down,left,0.603332099999534,0
+8,Bill,down,down,0.5985104999999749,1
