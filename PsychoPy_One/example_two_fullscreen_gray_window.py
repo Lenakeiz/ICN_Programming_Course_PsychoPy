@@ -17,8 +17,8 @@ def open_fullscreen_gray_window():
         system_monitors = get_monitors()
         print(f"System detected monitors: {system_monitors}")
         
-        # Get the last monitor (usually the external one)
-        target_monitor = system_monitors[-1]
+        # Get the external monitor (it may be indexed differently on your system)
+        target_monitor = system_monitors[0]
         print(f"Using monitor: {target_monitor}")
         print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
 
