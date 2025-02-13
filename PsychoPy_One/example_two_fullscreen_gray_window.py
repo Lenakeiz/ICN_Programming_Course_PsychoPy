@@ -22,10 +22,6 @@ def open_fullscreen_gray_window():
         print(f"Using monitor: {target_monitor}")
         print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
 
-        # Select the second screen if available
-        screen_to_use = len(system_monitors)
-        print(f"Using screen: {screen_to_use}")
-
         # Open a full-screen PsychoPy window with a gray background color.
         # The 'visual.Window()' function creates the window. We specify the screen
         # number using the 'screen' parameter and set the background color using 'color'.
@@ -34,7 +30,7 @@ def open_fullscreen_gray_window():
             color=[0, 0, 0],  # Gray color in PsychoPy's normalized RGB scale (-1 to 1)
             colorSpace='rgb',  # Use the normalized RGB color space
             units="pix",  # Use pixel units for any drawing commands
-            screen=screen_to_use,  # Specify the detected screen number
+            screen=0,  # Specify the detected screen number
             fullscr=True  # Enable full-screen mode
         )
 

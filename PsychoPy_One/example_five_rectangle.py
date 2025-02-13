@@ -15,7 +15,7 @@ def draw_green_rectangle():
             fullscr=True,
             monitor="testMonitor",
             units="pix",
-            color=[125, 0, 125],  # Black background
+            color=[0, 0, 0],  # Black background
             colorSpace='rgb255'
         )
         
@@ -30,7 +30,7 @@ def draw_green_rectangle():
             height=win_size[1]/2 - 80,    # Height from center to edge minus margin
             pos=(win_size[0]/4, win_size[1]/4),  # Position in upper right quadrant
             fillColor=[0, 1, 0],  # Green color
-            lineColor=None,  # No border
+            lineColor=[1, 0, 0],  # No border
             units='pix'
         )
 

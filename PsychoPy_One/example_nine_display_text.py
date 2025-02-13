@@ -18,7 +18,7 @@ def display_text():
         # Create first text stimulus
         text1 = visual.TextStim(
             win=win,
-            text='Here is some text displayed on the center of the PTB window...',
+            text='Here is some text displayed on the center of the PsychoPy window...',
             font='Courier New',
             pos=(0, 0),  # Center of screen
             color=[255, 0, 255],  # Magenta in rgb255
