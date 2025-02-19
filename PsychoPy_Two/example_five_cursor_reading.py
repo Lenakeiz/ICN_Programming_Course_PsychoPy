@@ -11,7 +11,8 @@ def mouse_query():
             monitor="testMonitor",
             units="pix",
             color=[0, 0, 0],
-            colorSpace='rgb255'
+            colorSpace='rgb255',
+            screen=1
         )
         
         # Create mouse object
